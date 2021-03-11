@@ -8,9 +8,10 @@ export const Button = styled(Link)`
     background: ${({primary}) =>(primary ? '#01BF71' : '#010606')};
     white-space:nowrap;
     padding:  ${({big}) =>(big ? '14px 48px' : '12px 30px')};
-    color:  ${({dark}) =>(dark ? '#0106061' : '#fff')};
-    font-size:  ${({fontBig}) =>(fontBig ? '20px' : '16px')};
+    color:  ${({dark}) =>(dark ? '#010606' : '#fff')};
+    font-size:  ${({fontBig}) =>(fontBig ? '24px' : '16px')};
     outline:none;
+    font-weight:600;
     border:none;
     cursor: pointer;
     display:flex;
